@@ -1,0 +1,13 @@
+﻿<!-- On tables -->
+<table class="table table-dark table-striped">
+    @foreach (var item in Model)
+    {
+        <tr class="table-primary">
+            <td class="table-secondary">@item.PatiantName</td>
+            <td class="table-secondary">@item.AppointmentDate</td>
+            <td class="table-secondary">@item.AppointmentTime</td>
+        </tr>
+    }
+</table>
+
+
